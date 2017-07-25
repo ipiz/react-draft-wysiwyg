@@ -45,6 +45,31 @@ Initial stable release
 ## 14/12/2016 (1.3.3)
 - #126: Rehydrating editor state with mention gives error.
 
-#25/12/2016
+## 25/12/2016
 - #142: Selection state broken when using contentState and onContentStateChange props.
 - #140: Request: customizable blockTypes.
+
+## 22/01/2017
+- #181: Ability to add custom block renderer.
+- #183: Default toolbar order by config.
+
+## 25/01/2017
+- #176: image upload issue: drag and drop
+
+## 10/02/2017
+- #127: Support for hashtags.
+
+## 09/07/2017 (1.10.2)
+- #348: Reduce bindle size by making ImmutableJS external dependency.
+
+## 14/07/2017 (1.10.5)
+- #393: Lots of toolbar icons not working when multiple editors are rendered.
+
+## 19/07/2017 (1.10.6)
+- #247: When you drag and drop an image in the image uploader from another browser it crashes.
+- #389: Hiding toolbar should not destroy the component.
+- Fixing broken mentions.
+
+## 20/07/2017 (1.10.7)
+- #380: add support for alt field.
+- #325: internalization of titles.
